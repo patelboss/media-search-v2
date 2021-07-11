@@ -1,5 +1,4 @@
-telethon==1.21
-TgCrypto==1.2.2
-
-# for reading .env files
-python-dotenv>=0.10
+https://github.com/Mahesh0253/pyrogram/archive/inline.zip
+tgcrypto==1.2.2
+umongo[motor]==3.0.0
+dnspython==2.1.0
