@@ -1,0 +1,84 @@
+{
+    "name": "Media Search bot",
+    "description": "easily share private channel files using Telegram InLine search, without database",
+    "keywords": [
+      "telegram",
+      "best",
+      "indian",
+      "telethon",
+      "media",
+      "search",
+      "channel",
+      "index",
+      "inline"
+    ],
+    "website": "https://github.com/patelboss/Media-Search-bot-by-pankaj",
+    "repository": "https://github.com/patelboss/Media-Search-bot-by-pankaj",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "Your bot token.",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        }
+       
+        ,
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        },
+        
+        "TG_USER_SESSION": {
+            "description": "Your String Session"
+            "value": ""
+        },
+        "TG_DUMP_CHAT": {
+            "description": "Username or ID of channel or group."
+            "value": ""
+        }
+        "PLZ_RATE_TEXT": {
+            "description": "PLZRATETEXT"
+            "value": ""
+        },
+        "START_TEXT": {
+            "description": "text to start massage."
+            "value": ""
+        },
+        "LEGAL_DISCLAIMER_TEXT": {
+            "description": "Username disclaimer."
+            "value": ""
+        },
+        "TG_SHARE_TEXT": {
+            "description": " caption for massage."
+            "value": ""
+        },
+        "SIQ_CC_TEXT": {
+            "description": " search on google 🤣."
+            "value": ""
+        },
+        "SIQ_TEXT": {
+            "description": " search on google 🤣."
+            "value": ""
+        },
+        "STB_WURF_TEXT": {
+            "description": " search on google 🤣."
+            "value": ""
+        },
+        "SPT_NTOIQ_TEXT": {
+            "description": "👴😀👴"
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
